@@ -4,12 +4,12 @@ interface Book{
     author : string;
     genre : string;
     rating : number;
-    total_copies: number;
-    available_copies: string;
+    totalCopies: number;
+    availableCopies: string;
     description : string;
     color : string;
-    cover : string;
+    coverUrl : string;
     video : string;
     summary: string;
-    isLoanBook ?: bolean
+    isLoanBook ?: bolean;
 }
